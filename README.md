@@ -18,7 +18,7 @@ mkdir build && cd build
 # Вариант 1. Терминальная версия
 cmake .. -DUSE_SFML=OFF
 make -j
-# Вариант 2. Графическая версия (+2 балла)
+# Вариант 2. Графическая версия
 cmake .. -DUSE_SFML=ON
 make -j
 ```
