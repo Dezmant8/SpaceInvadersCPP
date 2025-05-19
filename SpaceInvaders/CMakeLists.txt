@@ -17,7 +17,7 @@ find_package(Curses REQUIRED)
 file(GLOB SRC_FILES src/*.cpp)
 
 # ────────────────────── SFML ────────────────────────────────────────────────
-set(SFML_LIBS)          # сюда положим то, чем будем линковаться
+set(SFML_LIBS)
 
 if (USE_SFML)
     # 1) пробуем Homebrew-версию 3
